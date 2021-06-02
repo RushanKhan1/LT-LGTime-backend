@@ -165,7 +165,7 @@ let Token;
 
 		   user.save((err) => {
 		       if(err){
-			   res.status(401).json(err)
+			   res.status(402).json(err)
 		       }
 		       else {
 			   res.status(201).json({
